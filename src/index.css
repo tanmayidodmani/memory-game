@@ -81,15 +81,14 @@ body {
 
 /* Game Container Grid */
 .game-container {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(60px, 1fr));
-  gap: 12px;
-  width: 90vw;
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 16px;
+  max-width: 600px;
+  margin: 0 auto;
 }
+
 
 /* Memory Cards */
 .card {
