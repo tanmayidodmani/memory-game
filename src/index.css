@@ -1,6 +1,6 @@
 body {
   background-color: rgb(191, 208, 221);
-  background: linear-gradient(90deg, #d74048 0%, #3989bf 100%);
+  background: linear-gradient(90deg, #d73d44 0%, #3080b6 100%);
 
 
 }
@@ -36,11 +36,7 @@ body {
   margin-top: 80px;
 }
 
-.game-board {
-  width: 700px;
-  margin: 30px auto;
-  gap: 15px;
-}
+
 
 .card {
   width: 160px;
