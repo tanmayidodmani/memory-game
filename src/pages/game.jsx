@@ -2,21 +2,24 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Card from "../components/card";
 
-const cardValues = [
-  { id: 1, image: "/memory-game/cards/cat.jpg" },
-  { id: 2, image: "/memory-game/cards/dog.jpg" },
-  { id: 3, image: "/memory-game/cards/elephant.jpg" },
-  { id: 4, image: "/memory-game/cards/horse.jpg" },
-  { id: 5, image: "/memory-game/cards/kangaroo.jpg" },
-  { id: 6, image: "/memory-game/cards/panda.jpg" },
+const base = import.meta.env.BASE_URL;
 
-  { id: 7, image: "/memory-game/cards/cat.jpg" },
-  { id: 8, image: "/memory-game/cards/dog.jpg" },
-  { id: 9, image: "/memory-game/cards/elephant.jpg" },
-  { id: 10, image: "/memory-game/cards/horse.jpg" },
-  { id: 11, image: "/memory-game/cards/kangaroo.jpg" },
-  { id: 12, image: "/memory-game/cards/panda.jpg" },
+const cardValues = [
+  { id: 1, image: `${base}cards/cat.jpg` },
+  { id: 2, image: `${base}cards/dog.jpg` },
+  { id: 3, image: `${base}cards/elephant.jpg` },
+  { id: 4, image: `${base}cards/horse.jpg` },
+  { id: 5, image: `${base}cards/kangaroo.jpg` },
+  { id: 6, image: `${base}cards/panda.jpg` },
+
+  { id: 7, image: `${base}cards/cat.jpg` },
+  { id: 8, image: `${base}cards/dog.jpg` },
+  { id: 9, image: `${base}cards/elephant.jpg` },
+  { id: 10, image: `${base}cards/horse.jpg` },
+  { id: 11, image: `${base}cards/kangaroo.jpg` },
+  { id: 12, image: `${base}cards/panda.jpg` },
 ];
+
 
 
 
