@@ -1,109 +1,90 @@
+body {
+  background-color: rgb(191, 208, 221);
+  background: linear-gradient(90deg, #d74048 0%, #3989bf 100%);
 
-* {
-  margin: 0;
-  padding: 0;
+
+}
+
+#head {
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+  font-size: 50px;
+
+
+
+}
+
+
+.home-page button {
+  height: 50px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 700px;
+  margin-top: 50px;
+  font-size: large;
+  text-decoration: none;
+}
+
+.game-container {
+  text-align: center;
+  padding: 30px;
+  margin-top: 80px;
+}
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr)); 
+  
+  gap: 8px; 
+  width: 100%;
+  max-width: 450px; 
+  margin: 0 auto;
+  padding: 12px;
   box-sizing: border-box;
 }
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #282c34;
-  color: white;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 12px;
-  overflow-x: hidden;
-}
 
-.container {
-  text-align: center;
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-h1 {
-  font-size: calc(1.5rem + 1vw);
-  margin-bottom: 15px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); 
-  gap: 10px; 
-  width: 100%;
-  max-width: 440px; 
-  margin: 15px auto;
-  padding: 8px;
-}
 
 .card {
-  width: 100% !important;       
-  height: auto !important;       
-  aspect-ratio: 1 / 1;          
-  cursor: pointer;
-  perspective: 1000px;
-}
-
-.card .front,
-.card .back,
-.front,
-.back {
-  width: 100% !important;
-  height: 100% !important;
-  border-radius: 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
-}
-
-.front {
-  background-color: #3f51b5; 
-  color: white;
-  font-size: calc(1.2rem + 1vw);
-  font-weight: bold;
-}
-
-.back {
+  width: 160px;
+  height: 160px;
   background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
-.card img,
-.back img {
-  width: 100% !important;
-  height: 100% !important;
+.card img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  border-radius: 8px;
   display: block;
 }
 
-button {
-  background-color: #61dafb;
-  color: #282c34;
-  border: none;
-  padding: 10px 24px;
-  font-size: 1rem;
-  font-weight: bold;
-  border-radius: 5px;
+.card-back {
+  height: 100%;
+  width: 100%;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(55, 55, 147);
+  
+}
+
+.result-page{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 300px;
+}
+
+.result-page button {
+  padding: 12px 25px;
+  font-size: 18px;
   cursor: pointer;
-  transition: background-color 0.2s;
-  margin-top: 15px;
-}
-
-button:hover {
-  background-color: #4fa8c7;
-}
-
-@media (max-width: 400px) {
-  .grid {
-    gap: 6px;
-    padding: 2px;
-  }
+  border-radius: 10px;
+  background-color: #b46b6e;
 }
