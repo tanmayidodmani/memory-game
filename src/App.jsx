@@ -5,7 +5,7 @@ import Game from "./pages/game";
 import Result from "./pages/result";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/memory-game">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/game" element={ <Game /> } />
