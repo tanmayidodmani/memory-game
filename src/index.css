@@ -39,8 +39,6 @@ body {
 .game-board {
   width: 700px;
   margin: 30px auto;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
   gap: 15px;
 }
 
