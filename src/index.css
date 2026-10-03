@@ -5,7 +5,6 @@ body {
   min-height: 100vh;
 }
 
-/* HOME PAGE */
 
 #head {
   display: flex;
@@ -28,7 +27,6 @@ body {
 }
 
 
-/* GAME PAGE */
 
 .game-container {
   text-align: center;
@@ -73,7 +71,6 @@ body {
 }
 
 
-/* RESULT PAGE */
 
 .result-page {
   font-size: 30px;
@@ -90,7 +87,6 @@ body {
 }
 
 
-/* TABLET */
 
 @media (max-width: 800px) {
 
@@ -116,7 +112,6 @@ body {
 }
 
 
-/* MOBILE */
 
 @media (max-width: 600px) {
 
